@@ -1,6 +1,6 @@
 title: My Blog
 description: A weekly blog following my read through the Bible.
-baseurl: "/my-blog"
+#baseurl: "/my-blog"
 url: "https://zach-and-mickey.github.io/my-blog"
 markdown: kramdown
 theme: jekyll-theme-cayman
