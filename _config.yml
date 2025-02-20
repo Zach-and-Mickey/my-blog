@@ -3,4 +3,6 @@ description: A weekly blog following my read through the Bible.
 #baseurl: "/my-blog"
 url: "https://zach-and-mickey.github.io/my-blog"
 markdown: kramdown
-remote_theme: jekyll-theme-primer
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme 
