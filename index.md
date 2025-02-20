@@ -1,5 +1,5 @@
 ---
-layout: default
+title: Home Page
 ---
 
 # Welcome to my Bible blog!
