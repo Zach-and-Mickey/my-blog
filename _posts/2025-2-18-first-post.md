@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "More to Come"
-date: 2025-02-18 10:00:00
+date: 2025-2-18 10:00:00
 categories: [general]
 ---
 
