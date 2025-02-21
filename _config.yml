@@ -1,6 +1,6 @@
 title: Bible Blogger Weekly
 description: A weekly blog following my read through the Bible.
-#baseurl: "/my-blog"
-url: "https://zach-and-mickey.github.io/my-blog"
+baseurl: "/my-blog"
+url: "https://zach-and-mickey.github.io"
 markdown: kramdown
-remote_theme: jekyll-theme-primer
+remote_theme: jekyll/cayman-theme
