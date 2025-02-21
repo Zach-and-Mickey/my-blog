@@ -1,13 +1,18 @@
 ---
 title: Home Page
+layout: default
 ---
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-# Welcome to my Bible blog!
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-This is my new website powered by Jekyll and hosted on GitHub Pages!
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
 
-Check out my first blog post:
-
-{% for post in site.posts %}
-  * [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
-{% endfor %}
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
