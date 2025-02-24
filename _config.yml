@@ -1,5 +1,5 @@
 title: My Bible Blog
 description: A simple weekly blog to  help me stay on track with my Bible Reading.
 baseurl: ""  # Leave empty for root domain, or set if deploying in a subfolder
-url: "https://zach-and-mickey.github.io"  # Your GitHub Pages URL
+url: "https://zach-and-mickey.github.io/my-blog"  # Your GitHub Pages URL
 theme: jekyll-theme-cayman  # Or any other theme you want to use
