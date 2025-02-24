@@ -3,6 +3,6 @@ description: A simple weekly blog to  help me stay on track with my Bible Readin
 baseurl: ""  # Leave empty for root domain, or set if deploying in a subfolder
 url: "https://zach-and-mickey.github.io"  # Your GitHub Pages URL
 baseurl: "/my-blog"
-theme: jekyll-theme-cayman  # Or any other theme you want to use
+theme: jekyll-theme-slate  # Or any other theme you want to use
 sass: 
   style: compressed
