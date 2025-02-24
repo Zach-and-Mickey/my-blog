@@ -1,0 +1,1 @@
+I made this website as I way to keep myself committed to reading my Bible throughout the year. I have another site I made that will allow you to keep track of my plan and what I'm reading each day if you would like to follow along.
