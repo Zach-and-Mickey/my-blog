@@ -12,7 +12,6 @@ This is a simple blog built with Jekyll and hosted on GitHub Pages. You can crea
 {% for post in site.posts %}
   - **[{{ post.title }}]({{ post.url | relative_url }})**  
     *{{ post.date | date: "%B %d, %Y" }}*  
-    {{ post.excerpt }}
-  <br>
-  <a href="{{ post.url | relative_url }}">Read the full post</a>
+    {{ post.excerpt }}   <a href="{{ post.url | relative_url }}">Read the full post</a>
+
 {% endfor %}
