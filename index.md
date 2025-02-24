@@ -3,9 +3,9 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Jekyll Blog
+# Welcome to My Bible Blog
 
-This is a simple blog built with Jekyll and hosted on GitHub Pages. You can create posts, pages, and customize your site by editing the files in this repository.
+This is a simple blog that I made for the purpose of forcing me to keep up with my reading plan. I also think it will be interesting this time next year to go back and see how the Lord has been working in my life.
 
 # Latest Posts
 
