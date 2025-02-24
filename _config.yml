@@ -4,3 +4,5 @@ baseurl: ""  # Leave empty for root domain, or set if deploying in a subfolder
 url: "https://zach-and-mickey.github.io"  # Your GitHub Pages URL
 baseurl: "/my-blog"
 theme: jekyll-theme-cayman  # Or any other theme you want to use
+sass: 
+  style: compressed
