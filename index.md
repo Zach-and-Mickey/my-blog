@@ -14,6 +14,6 @@ If you would like to check out my other Bible site where you can read the Bible 
 {% for post in site.posts %}
   - **[{{ post.title }}]({{ post.url | relative_url }})**  
     *{{ post.date | date: "%B %d, %Y" }}*  
-    {{ post.excerpt }}   <a href="{{ post.url | relative_url }}">Read the full post</a>
+    {{ post.excerpt }}
 
 {% endfor %}
