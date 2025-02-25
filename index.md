@@ -13,8 +13,8 @@ If you would like to check out my other Bible site where you can read the Bible 
 
 {% for post in site.posts %}
   - **[{{ post.title }}]({{ post.url | relative_url }})**
-  - *{{{post.subtitle}}* 
-    *{{ post.date | date: "%B %d, %Y" }}*  
+  - *{{post.subtitle}}*
+  - *{{ post.date | date: "%B %d, %Y" }}*  
     {{ post.excerpt }}
 
 {% endfor %}
