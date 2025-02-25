@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Deuteronomy 11:1-7
+title: My Eyes Have Seen
+subtitle: Deuteronomy 11:1-7
 ---
 **Verses 2-3:** *Know this day—for I don’t speak with your children who have not known, and who have not seen the chastisement of Yahweh your God, his greatness, his mighty hand, his outstretched arm, his signs, and his works, which he did in the middle of Egypt to Pharaoh the king of Egypt, and to all his land;*
 
