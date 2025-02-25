@@ -4,7 +4,7 @@ title: In Our Hearts
 subtitle: Deuteronomy 30:14
 ---
 
->  Deuteronomy 30:14  "But the word is very near you; it is in your mouth and in your heart, so that you may obey it."
+Deuteronomy 30:14  "But the word is very near you; it is in your mouth and in your heart, so that you may obey it."
 
 This verse shows me several things that need to be true about how I use the Bible.
 
