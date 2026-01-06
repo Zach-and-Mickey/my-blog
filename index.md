@@ -7,7 +7,7 @@ title: Home
 
 This is a simple blog that I made for the purpose of keeping up with my reading plan and to just have a place to store my notes.
 
-
+{% include plan.html %}
 
 # Latest Posts
 
