@@ -40,7 +40,7 @@ async function getBibleDataAndReadings() {
         
         // Total chapters read until today:
         // 3 chapters for Monday through Saturday, 5 chapters for Sunday
-        const chaptersRead = ((dayOfYear-1) - numSundays) * 3 + numSundays * 5;
+        const chaptersRead = ((dayOfYear-1)*4);
         console.log("Chapters Read:", chaptersRead);
         
         // Ensure we don't go out of bounds of the Bible's chapters
@@ -50,9 +50,9 @@ async function getBibleDataAndReadings() {
         }
 
         // How many chapters to read today based on the day of the week
-        let chaptersPerDay = 3;
+        let chaptersPerDay = 4;
         if (weekday === 0) {  // Sunday (0 in JavaScript Date is Sunday)
-            chaptersPerDay = 5;
+            chaptersPerDay = 4;
         }
         
         // Calculate the starting chapter for today based on chapters read so far
