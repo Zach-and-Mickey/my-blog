@@ -71,33 +71,52 @@ async function getBibleDataAndReadings() {
         console.error('Error fetching Bible data:', error);
     }
 }
-
+    // Helper function to normalize book name for biblehub url
+function formatBibleHubBook(book) {
+    return book
+        .toLowerCase()
+        .replace(/\s+/g, '_'); // "1 Samuel" → "1_samuel"
+}
 // Function to display today's reading plan
 function displayTodayReading(readings) {
     const container = document.getElementById('readingPlan');
-    container.innerHTML = ''; // Clear any previous plan
+    container.innerHTML = '';
 
     let dayDiv = document.createElement('div');
     dayDiv.classList.add('day-plan');
-    
-    // Get the current day of the week
-    const currentDay = new Date().toLocaleString('en-US', { weekday: 'long' });
+
+    // 📅 Month Day format (e.g. "March 5")
+    const currentDay = new Date().toLocaleDateString('en-US', {
+        month: 'long',
+        day: 'numeric'
+    });
 
     let dayHeader = document.createElement('h3');
     dayHeader.textContent = `Today's Readings: ${currentDay}`;
     dayDiv.appendChild(dayHeader);
 
     let ul = document.createElement('ul');
+
     readings.forEach(reading => {
         let li = document.createElement('li');
-        li.textContent = `${reading.book} ${reading.Chapter}`;
+
+        const bookFormatted = formatBibleHubBook(reading.book);
+        const chapter = reading.Chapter;
+
+        const url = `https://biblehub.com/${bookFormatted}/${chapter}.htm`;
+
+        let a = document.createElement('a');
+        a.href = url;
+        a.textContent = `${reading.book} ${chapter}`;
+        a.target = '_blank'; // optional: open in new tab
+
+        li.appendChild(a);
         ul.appendChild(li);
     });
 
     dayDiv.appendChild(ul);
     container.appendChild(dayDiv);
 }
-
 // Call the function to get and display Bible readings
 getBibleDataAndReadings();
 
