@@ -103,7 +103,7 @@ function displayTodayReading(readings) {
         const bookFormatted = formatBibleHubBook(reading.book);
         const chapter = reading.Chapter;
 
-        const url = `https://biblehub.com/${bookFormatted}/${chapter}.htm`;
+        const url = `https://biblehub.com/esv/${bookFormatted}/${chapter}.htm`;
 
         let a = document.createElement('a');
         a.href = url;
