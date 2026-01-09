@@ -5,7 +5,8 @@
 html {
   width: 80% !important;
   margin-left: 10vw !important;
-  background-color: #252525;
+  background: #252525;
+  background: linear-gradient(#2a2a29, #1c1c1c);
 }
 body {
   color: white !important;
@@ -14,7 +15,9 @@ body {
 
 h1 {
   margin: 0;
-  color: #ff9b00;
+}
+#welcome-to-my-bible-blog {
+  color: #ff9b00 !important;
 }
 h2 {
   color: orange;
