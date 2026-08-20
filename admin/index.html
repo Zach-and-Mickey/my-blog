@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Blog Admin</title>
+
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+
+    <div class="admin-container">
+
+        <header class="admin-header">
+            <div>
+                <h1>New Blog Post</h1>
+                <p>Create and publish a new post.</p>
+            </div>
+
+            <a href="/" class="view-site">
+                View Site
+            </a>
+        </header>
+
+
+        <main class="editor-card">
+
+            <div class="form-group">
+                <label for="title">
+                    Title
+                </label>
+
+                <input
+                    type="text"
+                    id="title"
+                    placeholder="Enter post title..."
+                >
+            </div>
+
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="date">
+                        Publish Date
+                    </label>
+
+                    <input
+                        type="date"
+                        id="date"
+                    >
+                </div>
+
+
+                <div class="form-group">
+                    <label for="slug">
+                        File Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="slug"
+                        placeholder="generated-from-title"
+                    >
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <div class="editor-label">
+
+                    <label for="content">
+                        Post Content
+                    </label>
+
+                    <span id="word-count">
+                        0 words
+                    </span>
+
+                </div>
+
+
+                <div class="toolbar">
+
+                    <button type="button" data-action="bold">
+                        <strong>B</strong>
+                    </button>
+
+                    <button type="button" data-action="italic">
+                        <em>I</em>
+                    </button>
+
+                    <button type="button" data-action="heading">
+                        H
+                    </button>
+
+                    <button type="button" data-action="link">
+                        🔗
+                    </button>
+
+                    <button type="button" data-action="image">
+                        🖼
+                    </button>
+
+                    <button type="button" data-action="preview">
+                        Preview
+                    </button>
+
+                </div>
+
+
+                <textarea
+                    id="content"
+                    placeholder="Write your post here..."
+                ></textarea>
+
+            </div>
+
+
+            <div class="publish-area">
+
+                <div id="status">
+                    Draft not published
+                </div>
+
+                <div class="publish-buttons">
+
+                    <button
+                        type="button"
+                        id="download"
+                        class="secondary-button"
+                    >
+                        Download Draft
+                    </button>
+
+                    <button
+                        type="button"
+                        id="publish"
+                        class="publish-button"
+                    >
+                        Publish Post
+                    </button>
+
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <script src="admin.js"></script>
+
+</body>
+</html>
